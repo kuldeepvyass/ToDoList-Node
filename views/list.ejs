@@ -21,7 +21,20 @@
             
           </form>
      </div>
-    
+     <div class="box" id="heading2">
+     <form class="items" action="" method="dialog" onsubmit="help()">
+      <input type="text" name="item1"  id="item1" placeholder="Enter List Name" autocomplete="off" value="">
+      <button type="submit" name="submit1" >GO</button>
+      
+    </form>
+  </div>
      <%- include("footer") -%>
 </body>
+<script type="text/javascript">
+  function help(){
+    var x="/";
+    x+=document.getElementById("item1").value;
+    window.location.href=x;
+  }
+</script>
 </html>

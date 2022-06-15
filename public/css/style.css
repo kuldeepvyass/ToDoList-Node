@@ -22,6 +22,10 @@ html {
     background-color: #A683E3;
     text-align: center;
   }
+  #heading2 {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
   
   .item {
     min-height: 70px;
